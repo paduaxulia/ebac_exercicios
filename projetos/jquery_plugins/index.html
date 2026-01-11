@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Pet Shop</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobre-o-pet">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#promos">Pomoções</a>
+                    </li>
+                    <li>
+                        <a href="#servicos">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carousel-imagens">
+        <img src="./imgs/pets/penteado_barto.jpg" alt="Penteado na cor preta">
+        <img src="./imgs/pets/penteado_barto2.jpg" alt="Penteado na cor azul">
+        <img src="./imgs/pets/penteado_lilas.jpg" alt="Penteado em lilás">
+        <img src="./imgs/pets/penteado_mel.jpg" alt="Penteado em verde">
+        <img src="./imgs/pets/penteado_rosinha.jpg" alt="Penteado em rosinha">
+    </div>
+
+    <section id="sobre-o-pet">
+        <div class="container container-flex">
+            <img src="./imgs/frente_loja/front-store.jpg" alt="Imagem da fachada do Pet Shop">
+            <div>
+                <h2>Sobre o Pet Shop</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum doloribus eaque omnis alias repudiandae nihil error libero laboriosam quibusdam voluptates reprehenderit adipisci dolor voluptate, sed dolorem eum placeat sit?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, temporibus id nam consequatur voluptatem tempore, debitis reiciendis dicta dolore placeat accusantium minima? Beatae quia omnis veniam officia ducimus iure autem!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="promos">
+        <div class="container">
+            <h2>Promoções</h2>
+            <ul class="container-flex lista-produtos">
+                <li>
+                    <img src="./imgs/produtos/Aurivet_spray.jpeg" alt="Medicamento para cães e gatos">
+                    <h3>Aurivet</h3>
+                    <p>
+                        Óleo para tratar a pele.
+                    </p>
+                    <div class="price">
+                        <del>R$ 100,00</del>
+                        <strong>R$ 85,00</strong>
+                    </div>
+                    <button type="button">Comprar</button>
+                </li>
+                <li class="item-central">
+                    <img src="./imgs/produtos/creme_dental.jpeg" alt="Creme dental para cães e gatos">
+                    <h3>Creme Dental Plim</h3>
+                    <p>
+                        Creme dental com sabor.
+                    </p>
+                    <div class="price">
+                        <del>R$ 75,00</del>
+                        <strong>R$ 50,00</strong>
+                    </div>
+                    <button type="button">Comprar</button>
+                </li>
+                <li>
+                    <img src="./imgs/produtos/shampoo.jpeg" alt="Shampoo para cães e gatos">
+                    <h3>Shampoo Cloresten</h3>
+                    <p>
+                        Shampoo para tratamento de pele.
+                    </p>
+                    <div class="price">
+                        <del>R$ 170,00</del>
+                        <strong>R$ 110,95</strong>
+                    </div>
+                    <button type="button">Comprar</button>
+                </li>
+                <li>
+                    <img src="./imgs/produtos/boné.jpeg" alt="boné para cães">
+                    <h3>Boné</h3>
+                    <p>
+                        Boné para cães.
+                    </p>
+                    <div class="price">
+                        <del>R$ 85,00</del>
+                        <strong>R$ 60,00</strong>
+                    </div>
+                    <button type="button">Comprar</button>
+                </li>
+                <li class="item-central">
+                    <img src="./imgs/produtos/brinquedo.jpeg" alt="Brinquedo para cães">
+                    <h3>Brinquedo Corda</h3>
+                    <p>
+                        Brinquedo modelo corda para cães.
+                    </p>
+                    <div class="price">
+                        <del>R$ 120,00</del>
+                        <strong>R$ 90,00</strong>
+                    </div>
+                    <button type="button">Comprar</button>
+                </li>
+                <li>
+                    <img src="./imgs/produtos/meia.jpeg" alt="Meia para cães">
+                    <h3>Meia</h3>
+                    <p>
+                        Meia tamanho G para cães.
+                    </p>
+                    <div class="price">
+                        <del>R$ 77,00</del>
+                        <strong>R$ 55,00</strong>
+                    </div>
+                    <button type="button">Comprar</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <ul class="servicos">
+                <li>
+                    <img src="./imgs/logos/logo_hydra.png" alt="Hydra Pet Society">
+                    <h3>Hydra | Pet Society</h3>
+                    <button type="button">Saiba mais</button>
+                </li>
+                <li class="item-central">
+                    <img src="./imgs/logos/logo_surrealpet.webp" alt="Surreal Pet">
+                    <h3>Surreal Pet</h3>
+                    <button type="button">Saiba mais</button>
+                </li>
+                <li>
+                    <img src="./imgs/logos/logo_bubbles.avif" alt="Bubbles Pet">
+                    <h3>Bubbles</h3>
+                    <button type="button">Saiba mais</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input  type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="exemplo@email.com" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="produto-interesse">Produtos de interesse:</label>
+                    <input type="text" id="produto-interesse" name="interesse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2025 &copy; Pet Shop - Todos os direitos reservados
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="Youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    padding: 2cm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20cm;
+    height: auto;
+    flex-direction: column;
+    margin: 10px;
+    padding: 8px;
+}
+
+#botao {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#botao:hover {
+    background-color: rgb(253, 118, 136);
+}
+
+#botao i {
+    font-size: 16px;
+}
+
+#nomecompleto {
+    width: 600px;
+    height: 40px;
+    padding: 0 12px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: 0.5px solid pink;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline-color: pink;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: pink;;
+}
+
+.input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+
+
+input.success {
+    outline: 1px solid lightgreen;
+    border: 1px solid lightgreen;
+}
+
+input.error {
+    outline: 1px solid lightcoral;
+    border: 1.5px solid lightcoral;
+}
+
+.go-to-imgs {
+    display: none;
+    padding: 2px 12px;
+    width: fit-content;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagina {
+    display: none;
+}
+
+#divsoria {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#divsoria::before,
+#divsoria::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #aaa;
+}
+
+.subtitulo {
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    align-content: start;
+    font-weight: 400;
+}
+
+.images img {
+    display: flex;
+    align-items: initial;
+    flex-direction: row;
+    width: 200px;
+    height: auto; 
+}
+
+.materias li,
+.images li {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+#sobreEla, #amor,
+#orgulho {
+    color: lightslategray;
+    padding: 2px;
+    font-size: 12px;
+    display: flex;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 62.5;
+}

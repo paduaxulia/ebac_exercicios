@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header, footer {
+    background-color: #3c8de3;
+    padding-top: 16px;
+    color: #fff;
+    align-items: center;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #ffec5c;
+    padding: 16px 0;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+nav li a {
+    color: #45706b;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#carousel-imagens img {
+  width: 100%;         /* imagem ocupa toda a largura do slide */
+  height: 300px;       /* altura fixa, você pode ajustar */
+}
+
+#sobre-o-pet img {
+    max-width: 400px;
+    margin-right: 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+#promos > .container,
+#servicos > .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-produtos {
+    flex-wrap: wrap;
+
+}
+
+.lista-produtos li {
+    list-style: none;
+    max-width: 30%;
+    min-height: 500px; /*ajusta conforme seu layout*/
+    margin-bottom: 24px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lista-produtos li img {
+    max-width: 100%;
+}
+
+.lista-produtos li h3 {
+    margin: 16px 0;
+}
+
+.item-central {
+    margin: 0 10%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #1ef586;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #a4ecc7;
+    border: 3px solid #8bf8ce;
+    transform: scale(1.01);
+    transition: all .1s ease;
+}
+
+.servicos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.servicos li {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.servicos li img {
+    max-width: 300px;
+}
+
+.servicos li h3 {
+    margin: 16px 0;
+}
+
+.servicos button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
